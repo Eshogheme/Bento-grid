@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100vh;   
+   background-color: hsl(0, 0%, 96%);
+}
+
+@font-face {
+    font-family: newFont;
+    src: url(/assets/fonts/static/DMSans-Medium.ttf);
+}
+@font-face {
+    font-family: secondFont;
+    src: url(/assets/fonts/static/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: itallicFont;
+    src: url(/assets/fonts/static/DMSans-MediumItalic.ttf);
+}
+@media (min-width: 320px) and (max-width: 767px) {
+
+
+
+.grid-wrapper{
+    display: grid;
+    margin-top: 1em;
+    grid-gap: 1.5rem;
+padding: 1rem;
+}
+
+.grids{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius:0.5em;
+    padding: 1rem;
+    width: 45%;
+    flex-grow: 1;
+    width: 100%;
+  
+}
+
+.social-media{
+    padding-bottom: 1rem;
+    background-color: hsl(256, 67%, 59%);
+    color: hsl(0, 0%, 100%);
+}
+.social-media-header{
+    font-family: newFont;
+    font-size: 35px;
+    width:70%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.social-media-img{
+    width: 70%;
+    margin-top: -1em;
+}
+#ten-x{
+    color:hsl(39, 100%, 71%) ;
+}
+#first-itallic{
+    font-family: itallicFont;
+}
+
+.social-media-para{
+    font-family: newFont;
+    font-weight: lighter;
+}
+.multiple-accounts {
+    background-color:hsl(0, 0%, 100%) ;
+    padding: 0.5rem;
+}
+.multiple-accounts-img{
+    width: 100%;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01);
+}
+.multiple-accounts-header{
+    font-family:secondFont ;
+    font-size: 20px;
+    width:90%;
+    margin-bottom: 0.2rem;
+    line-height: 1.2rem;
+}
+.consistent-schedule{
+    padding: 0.5rem;
+    height: 35dvh;
+    background-color: hsl(39, 100%, 71%);
+}
+.consistent-schedule-header-image-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    padding-left:0.5em;
+    margin: 0;
+}
+.consistent-schedule-header{
+    font-family:secondFont ;
+    margin-top: 0.5rem;
+    font-size: 25px;
+    
+}
+.consistent-schedule-img{
+    width: 70%;
+    height:57%;
+    object-fit: cover;
+    object-position: top; 
+}
+.social-schedule{
+    background-color: hsl(254, 88%, 90%);
+}
+.social-schedule-header{
+    font-family:secondFont ;
+    font-size: 24px;
+    color:hsl(0, 0%, 7%);
+    margin-top: 1rem;
+}
+.social-schedule-img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.social-schedule-para{
+    font-family: newFont;
+    font-size: 19px;
+    text-align: center;
+    color: hsl(0, 0%, 7%);
+    line-height: 1.5rem;
+    
+}
+
+.grow-followers {
+    background-color:hsl(256, 67%, 59%);
+}
+.grow-followers-header-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grow-followers-img{
+    width: 80%;
+    margin-bottom: 1.5rem;
+}
+.grow-followers-header{
+    font-family:secondFont;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 30px;
+    width: 80%;
+    color: hsl(0, 0%, 100%);
+}
+
+.faster-audience-growth{
+    background-color:hsl(0, 0%, 100%) ;
+}
+
+.faster-audience-growth-header-img-wrapper,
+.create-schedule-content-header-img-wrapper,
+.write-with-ai-header-img-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+
+.faster-audience-growth-header{
+    font-family:secondFont;
+    font-size: 50px;
+    margin: 0.5rem 0;
+    
+}
+.faster-audience-growth-para{
+    font-family:newFont;
+    font-size: 18px;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+}
+.faster-audience-growth-img{
+    width: 60%;
+    margin-bottom: 0.5rem;
+}
+
+.create-schedule-content{
+    background-color: rgb(255, 243, 230);
+}
+
+.create-schedule-content-header{
+    font-family:secondFont;
+    font-size: 30px;
+    margin-top: 0.5rem;
+}
+#second-itallic{
+    font-family:itallicFont;
+    font-weight: 400;
+    color:hsl(256, 67%, 59%) ;
+}
+.create-schedule-content-img{
+    width: 60%;
+}
+.write-with-ai{
+    background-color: hsl(39, 100%, 71%);
+}
+.write-with-ai-header{
+font-family: secondFont;
+font-size: 30px;
+margin-top: 0.5rem;
+}
+
+.write-with-ai-img{
+    width: 80%;
+    margin-bottom: 0;
+}
+.anchor{
+    text-decoration: none;
+    font-family: newFont;
+    color:hsl(256, 67%, 59%);
+}
+}
