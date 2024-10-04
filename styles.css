@@ -209,6 +209,7 @@ padding: 1rem;
 }
 .write-with-ai{
     background-color: hsl(39, 100%, 71%);
+    margin-bottom: 1rem;
 }
 .write-with-ai-header{
 font-family: secondFont;
