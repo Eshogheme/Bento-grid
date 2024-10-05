@@ -52,6 +52,12 @@ padding: 1rem;
     background-color: hsl(256, 67%, 59%);
     color: hsl(0, 0%, 100%);
 }
+.social-media-header-img-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
 .social-media-header{
     font-family: newFont;
     font-size: 35px;
@@ -93,7 +99,7 @@ padding: 1rem;
 }
 .consistent-schedule{
     padding: 0.5rem;
-    height: 35dvh;
+    height: 38dvh;
     background-color: hsl(39, 100%, 71%);
 }
 .consistent-schedule-header-image-wrapper{
@@ -111,7 +117,7 @@ padding: 1rem;
 }
 .consistent-schedule-img{
     width: 70%;
-    height:57%;
+    height:60%;
     object-fit: cover;
     object-position: top; 
 }
@@ -226,4 +232,700 @@ margin-top: 0.5rem;
     font-family: newFont;
     color:hsl(256, 67%, 59%);
 }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+    .grid-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 1em;
+        grid-gap: 1.5rem;
+    padding: 1rem;
+    }
+    
+    .grids{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        border-radius:0.5em;
+        padding: 1rem;
+        width: 45%;
+        flex-grow: 1;
+        width: 100%;
+      
+    }
+    
+    .social-media{
+        padding-bottom: 1rem;
+        background-color: hsl(256, 67%, 59%);
+        color: hsl(0, 0%, 100%);
+    }
+    .social-media-header-img-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .social-media-header{
+        font-family: newFont;
+        font-size: 35px;
+        width:70%;
+        text-align: center;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+    .social-media-img{
+        width: 70%;
+        margin-top: -1em;
+    }
+    #ten-x{
+        color:hsl(39, 100%, 71%) ;
+    }
+    #first-itallic{
+        font-family: itallicFont;
+    }
+    
+    .social-media-para{
+        font-family: newFont;
+        font-weight: lighter;
+    }
+    .multiple-accounts {
+        background-color:hsl(0, 0%, 100%) ;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .multiple-accounts-img{
+        width: 120%;
+        border-radius: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01);
+        margin-bottom: 1rem;
+    }
+    .multiple-accounts-header{
+        font-family:secondFont ;
+        font-size: 20px;
+        width:90%;
+        margin-bottom: 0.2rem;
+        line-height: 1.2rem;
+    }
+    .consistent-schedule{
+        padding: 0.5rem;
+        background-color: hsl(39, 100%, 71%);
+    }
+    .consistent-schedule-header{
+        font-family:secondFont ;
+        margin-top: 0.5rem;
+        font-size: 35px;
+    }
+    .consistent-schedule-img{
+        width: 90%;
+        height: 135%;
+        object-fit: contain;
+       
+    }
+    .social-schedule{
+        background-color: hsl(254, 88%, 90%);
+    }
+    .social-schedule-header{
+        font-family:secondFont ;
+        font-size: 24px;
+        color:hsl(0, 0%, 7%);
+        margin-top: 1rem;
+    }
+    .social-schedule-img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .social-schedule-para{
+        font-family: newFont;
+        font-size: 19px;
+        text-align: center;
+        color: hsl(0, 0%, 7%);
+        line-height: 1.5rem;
+        
+    }
+    
+    .grow-followers {
+        background-color:hsl(256, 67%, 59%);
+    }
+    .grow-followers-header-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grow-followers-img{
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+    .grow-followers-header{
+        font-family:secondFont;
+        font-weight: 600;
+        line-height: 2rem;
+        text-align: center;
+        font-size: 30px;
+        width: 80%;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .faster-audience-growth{
+        background-color:hsl(0, 0%, 100%) ;
+        padding-top: 5rem;
+    }
+    
+    .faster-audience-growth-header-img-wrapper,
+    .create-schedule-content-header-img-wrapper,
+    .write-with-ai-header-img-wrapper
+    {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+    }
+    
+    .faster-audience-growth-header{
+        font-family:secondFont;
+        font-size: 50px;
+        margin: 0.5rem 0;
+        
+    }
+    .faster-audience-growth-para{
+        font-family:newFont;
+        font-size: 18px;
+        margin-top: 0rem;
+        margin-bottom: 1.5rem;
+    }
+    .faster-audience-growth-img{
+        width: 60%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .create-schedule-content{
+        background-color: rgb(255, 243, 230);
+        padding-top: 7rem;
+    }
+    
+    .create-schedule-content-header{
+        font-family:secondFont;
+        font-size: 30px;
+        margin-top: 0.5rem;
+    }
+    #second-itallic{
+        font-family:itallicFont;
+        font-weight: 400;
+        color:hsl(256, 67%, 59%) ;
+    }
+    .create-schedule-content-img{
+        width: 60%;
+    }
+    .write-with-ai{
+        background-color: hsl(39, 100%, 71%);
+        margin-bottom: 1rem;
+        padding-top: 2rem;
+    }
+    .write-with-ai-header{
+    font-family: secondFont;
+    font-size: 30px;
+    margin-top: 0.5rem;
+    }
+    
+    .write-with-ai-img{
+        width: 80%;
+        margin-bottom: 0;
+    }
+    .attribution{
+        font-size: 25px;
+        padding: 1rem;
+        font-family: newFont;
+    }
+    .anchor{
+        text-decoration: none;
+        font-family: itallicFont ;
+        color:hsl(256, 67%, 59%);
+        
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1438px) {
+    
+    .grid-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 1em;
+        grid-gap: 1.5rem;
+         padding: 1rem;
+    }
+    
+    .grids{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        border-radius:0.5em;
+        padding: 1rem;
+        width: 45%;
+        flex-grow: 1;
+        width: 100%;
+      
+    }
+    
+    .social-media{
+        padding-bottom: 1rem;
+        background-color: hsl(256, 67%, 59%);
+        color: hsl(0, 0%, 100%);
+    }
+    .social-media-header{
+        font-family: newFont;
+        font-size: 35px;
+        width:85%;
+        margin-top: 3rem;
+        text-align: center;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+    .social-media-img{
+        width: 70%;
+        margin-top: -1em;
+    }
+    #ten-x{
+        color:hsl(39, 100%, 71%) ;
+    }
+    #first-itallic{
+        font-family: itallicFont;
+    }
+    
+    .social-media-para{
+        font-family: newFont;
+        font-weight: lighter;
+    }
+    .multiple-accounts {
+        background-color:hsl(0, 0%, 100%) ;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .multiple-accounts-img{
+        width: 125%;
+        border-radius: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01);
+        margin-bottom: 1rem;
+    }
+    .multiple-accounts-header{
+        font-family:secondFont ;
+        font-size: 25px;
+        text-align: center;
+        width:90%;
+        margin-bottom: 0.2rem;
+        line-height: 2rem;
+    }
+    .consistent-schedule{
+        padding: 0.5rem;
+        background-color: hsl(39, 100%, 71%);
+        display: grid;
+    }
+    .consistent-schedule-header{
+        font-family:secondFont ;
+        margin-top: 0.5rem;
+        font-size: 35px;
+    }
+    .consistent-schedule-img{
+        width: 90%;
+        height: 60%;
+        object-fit: contain;
+       
+    }
+    .social-schedule{
+        background-color: hsl(254, 88%, 90%);
+    }
+    .social-schedule-header{
+        font-family:secondFont ;
+        font-size: 24px;
+        color:hsl(0, 0%, 7%);
+        margin-top: 1rem;
+    }
+    .social-schedule-img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .social-schedule-para{
+        font-family: newFont;
+        font-size: 19px;
+        text-align: center;
+        color: hsl(0, 0%, 7%);
+        line-height: 1.5rem;
+        
+    }
+    
+    .grow-followers {
+        background-color:hsl(256, 67%, 59%);
+    }
+    .grow-followers-header-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grow-followers-img{
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+    .grow-followers-header{
+        font-family:secondFont;
+        font-weight: 600;
+        line-height: 2rem;
+        text-align: center;
+        font-size: 30px;
+        width: 80%;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .faster-audience-growth{
+        background-color:hsl(0, 0%, 100%) ;
+        padding-top: 5rem;
+    }
+    
+    .faster-audience-growth-header-img-wrapper,
+    .create-schedule-content-header-img-wrapper,
+    .write-with-ai-header-img-wrapper
+    {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+    }
+    
+    .faster-audience-growth-header{
+        font-family:secondFont;
+        font-size: 50px;
+        margin: 0.5rem 0;
+        
+    }
+    .faster-audience-growth-para{
+        font-family:newFont;
+        font-size: 18px;
+        margin-top: 0rem;
+        margin-bottom: 1.5rem;
+    }
+    .faster-audience-growth-img{
+        width: 60%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .create-schedule-content{
+        background-color: rgb(255, 243, 230);
+        padding-top: 7rem;
+    }
+    
+    .create-schedule-content-header{
+        font-family:secondFont;
+        font-size: 30px;
+        margin-top: 0.5rem;
+    }
+    #second-itallic{
+        font-family:itallicFont;
+        font-weight: 400;
+        color:hsl(256, 67%, 59%) ;
+    }
+    .create-schedule-content-img{
+        width: 60%;
+    }
+    .write-with-ai{
+        background-color: hsl(39, 100%, 71%);
+        margin-bottom: 1rem;
+        padding-top: 2rem;
+        grid-column: span 2;
+        align-items: flex-start;
+    }
+    .write-with-ai-header{
+    font-family: secondFont;
+    font-size: 30px;
+    margin-top: 0.5rem;
+    }
+    
+    .write-with-ai-img{
+        width: 80%;
+        margin-bottom: 0;
+    }
+    .attribution{
+        font-size: 25px;
+        padding: 1rem;
+        font-family: newFont;
+    }
+    .anchor{
+        text-decoration: none;
+        font-family: itallicFont ;
+        color:hsl(256, 67%, 59%);
+        
+    }
+}
+
+@media (min-width: 1440px){
+   body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    
+    overflow: hidden;
+   }
+    .grid-wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,0.5fr);
+        grid-auto-rows: 15rem;
+        margin: 5em;
+        grid-gap: 1.5rem;
+        padding: 2rem;
+        width: 65%;
+
+    }
+    .grids{
+        width: 100%;
+        border-radius: 1rem;
+    }
+    
+    .social-media{
+        padding-bottom: 1rem;
+        background-color: hsl(256, 67%, 59%);
+        color: hsl(0, 0%, 100%);
+        grid-column: span 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        
+    }
+    .social-media-header-img-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media-header{
+        font-family: newFont;
+        font-size: 35px;
+        width:75%;
+        margin-top: 3rem;
+        text-align: center;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+    .social-media-img{
+        width: 60%;
+        margin-top: -1em;
+    }
+    #ten-x{
+        color:hsl(39, 100%, 71%) ;
+    }
+    #first-itallic{
+        font-family: itallicFont;
+    }
+    
+    .social-media-para{
+        font-family: newFont;
+        font-weight: lighter;
+    }
+    .multiple-accounts {
+        background-color:hsl(0, 0%, 100%) ;
+        display: flex;
+        flex-direction: column;
+       padding: 0.5rem;
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+    .multiple-accounts-img{
+        width: 100%;
+        object-fit: contain;
+        border-radius: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01);
+      margin: 1rem 0;
+    }
+    .multiple-accounts-header{
+        font-family:secondFont ;
+        font-size: 30px;
+       
+        margin-bottom: 0.2rem;
+        line-height: 1.5rem;
+    }
+    .consistent-schedule{
+        padding: 0.5rem;
+        background-color: hsl(39, 100%, 71%);
+        display: grid;
+       padding-bottom: 0;
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+    .consistent-schedule-header{
+        font-family:secondFont ;
+        margin-top: 0.5rem;
+        font-size: 24px;
+    }
+    .consistent-schedule-img{
+        width: 100%;
+        height:26%;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 0.5rem;
+    }
+    .social-schedule{
+        background-color: hsl(254, 88%, 90%);
+        grid-row: span 2;
+        
+    }
+    .social-schedule-header-img-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-left: 2rem;
+    }
+    .social-schedule-header{
+        font-family:secondFont ;
+        font-size: 24px;
+        color:hsl(0, 0%, 7%);
+        margin-top: 1rem;
+        
+    }
+    .social-schedule-img{
+        width: 99%;
+        height: 30dvh;
+        margin-bottom: 1rem;
+    }
+    .social-schedule-para{
+        font-family: newFont;
+        font-size: 18px;
+        color: hsl(0, 0%, 7%);
+        line-height: 1.5rem;
+    }
+    
+    .grow-followers {
+        background-color:hsl(256, 67%, 59%);
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        padding: 1.5rem;
+    }
+    .grow-followers-header-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center ;
+    }
+    .grow-followers-img{
+        width:50%;
+        margin-bottom: 1.5rem;
+    }
+    .grow-followers-header{
+        font-family:secondFont;
+        font-weight: 600;
+        line-height: 2rem;
+        
+        font-size: 30px;
+        width: 80%;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .faster-audience-growth{
+        background-color:hsl(0, 0%, 100%) ;
+       padding: 1rem;
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+    
+    .faster-audience-growth-header-img-wrapper,
+    .write-with-ai-header-img-wrapper
+    {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+    }
+    
+    .faster-audience-growth-header{
+        font-family:secondFont;
+        font-size: 50px;
+        margin: 0.5rem 0;
+        
+    }
+    .faster-audience-growth-para{
+        font-family:newFont;
+        font-size: 18px;
+        margin-top: 0rem;
+        margin-bottom: 1.5rem;
+    }
+    .faster-audience-growth-img{
+        width: 80%;
+        margin-bottom: 0.5rem;
+    }
+
+.create-schedule-write-ai-wrapper{
+    display: grid;
+    grid-row: 1/4;
+    grid-gap: 1.5rem;
+}
+    
+    .create-schedule-content{
+        background-color: rgb(255, 243, 230);
+        grid-column-start: 1;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+       padding: 1.5rem;
+    }
+
+    .create-schedule-content-header-img-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .create-schedule-content-header{
+        font-family:secondFont;
+        font-size: 30px;
+       
+    }
+    #second-itallic{
+        font-family:itallicFont;
+        font-weight: 400;
+        color:hsl(256, 67%, 59%) ;
+    }
+    .create-schedule-content-img{
+        width: 90%;
+    }
+    .write-with-ai{
+        background-color: hsl(39, 100%, 71%);
+        padding: 1rem;
+    }
+    .write-with-ai-header{
+    font-family: secondFont;
+    font-size: 30px;
+    width: 90%;
+    margin-top: 0.5rem;
+    line-height: 2rem;
+    }
+    
+    .write-with-ai-img{
+        width: 100%;
+       
+    }
+    .attribution{
+        font-size: 15px;
+        padding: 1rem;
+        font-family: newFont;
+        
+
+    }
+    .anchor{
+        text-decoration: none;
+        font-family: itallicFont ;
+        color:hsl(256, 67%, 59%);
+        
+    }
 }
